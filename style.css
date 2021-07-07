@@ -1,0 +1,43 @@
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body{
+    margin: 0;
+    font-family: 'Amatic SC';
+}
+
+nav a{
+    color: darkorchid;
+    font-size: 40px;
+    margin: 20px;
+}
+
+button{
+    padding: 10px 40px;
+    border-radius: 20px;
+    background-color: goldenrod;
+    margin-right: 20px;
+    border: none;
+}
+
+button:hover{
+    background-color: dimgrey; 
+    transform: scale(1.2);
+}
+div{
+    text-align: center;
+    padding: 70px;
+    background-image: url(fon.jpg);
+    background-size: cover;
+}
+h1{
+    font-size: 60px;
+}
+p{
+    font-size: 30px;
+    font-weight: bold;
+}
